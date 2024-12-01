@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sample-app-be-service
+  name: sample_app_be_service
   namespace: argocd
   labels:
-    app: sample-app-be
+    app: sample_app_be
 spec:
   type: LoadBalancer
   selector:
-    app: sample-app-be
+    app: sample_app_be
   ports:
   - protocol: TCP
     port: 80
