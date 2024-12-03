@@ -20,3 +20,4 @@ spec:
         image: docker.io/ackresponse/sample-app-be:1.0
         ports:
         - containerPort: 8080
+        
