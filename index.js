@@ -8,7 +8,7 @@ function simpleApp() {
   app.use(express.urlencoded({ extended: true }));
   app.get("/api/backend-call", (req, res, next) => {
     try {
-      return res.json("Test 2 - Wow backend is also connected!");
+      return res.json("Test 3 Demo - Wow backend is also connected!");
     } catch (error) {
       return res.status(500).json({ message: "Internal Server Error" });
     }
