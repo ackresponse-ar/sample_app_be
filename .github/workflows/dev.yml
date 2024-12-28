@@ -1,9 +1,9 @@
-name: Push Docker Image
+name: Push Docker Image To Dev
 
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   docker:
