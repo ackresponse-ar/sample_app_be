@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: sample-app-be
-        image: docker.io/ackresponse/sample-app-be:1.4
+        image: docker.io/ackresponse/sample-app-be:1.5
         ports:
         - containerPort: 8080
